@@ -10,7 +10,7 @@ controller.shortLink = (req, res)=>{
         if(err){
             res.status(404).json(err);
         }
-        res.status(202).json(`http://localhost:1300/link/${shortLink[1]}`);
+        res.status(202).json(`http://shortlink-dan.herokuapp.com/link/${shortLink[1]}`);
     })
     
 }
