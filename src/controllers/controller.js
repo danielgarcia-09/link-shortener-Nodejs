@@ -22,6 +22,11 @@ controller.getLink = (req,res)=>{
         }
        setTimeout(()=>{
         res.redirect(data[0].linkInitial);
+        con.query(`delete from links where shortLink = '${link}'`,(err,data)=>{
+            if(err){
+                res.status(404).json(err);
+            }
+        })
        },5000)
     })
 }
