@@ -1,6 +1,6 @@
 {
   "name": "link-shortener",
-  "author": "Daniel Garcia",
+  
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,7 +11,7 @@
     "dev": "nodemon index.js",
     "start": "node index.js"
   },
-  "author": "",
+  "author": "Daniel Garcia",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
