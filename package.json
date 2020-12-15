@@ -2,7 +2,7 @@
   "name": "link-shortener",
   "author": "Daniel Garcia",
   "version": "1.0.0",
-  "description": "",
+  "description": "Un link shortener vacano",
   "main": "index.js",
   "engines": {
     "node": "12.x"
